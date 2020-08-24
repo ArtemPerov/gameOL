@@ -1,0 +1,87 @@
+.game {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+.game__buttton {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.but {
+  margin: 0 auto;
+  width: 300px;
+  height: 150px;
+  background: green;
+
+  border-radius: 40%;
+  box-shadow: 10px 10px grey;
+  border: 0;
+  font-size: 50px;
+}
+
+.boll {
+  position: absolute;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.box {
+  width: 100%;
+  height: 90%;
+  display: none;
+}
+.number-box {
+  display: none;
+  position: absolute;
+}
+.number {
+  /* height: 90vh; */
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+  display: none;
+  border: 1px solid red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  /* position: absolute; */
+  font-size: 500px;
+  opacity: 0.1;
+  margin: 0 auto;
+  display: none;
+}
+
+.result-box {
+  position: absolute;
+  width: 50%;
+  height: 50vh;
+  background-color: lawngreen;
+  border-radius: 20%;
+  font-size: 200%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  top: 50%;
+  left: 25%;
+}
+
+.result-box p {
+  text-align: center;
+}
+
+
